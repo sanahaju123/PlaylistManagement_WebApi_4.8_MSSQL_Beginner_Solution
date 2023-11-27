@@ -27,7 +27,7 @@ namespace PlaylistManagementApp
             );
             var container = new UnityContainer();
 
-            // Register your dependencies, including IExpenseService
+            // Register your dependencies, including IPlaylistService
             container.RegisterType<IPlaylistService, PlaylistService>();
             container.RegisterType<IPlaylistRepository, PlaylistRepository>();
 

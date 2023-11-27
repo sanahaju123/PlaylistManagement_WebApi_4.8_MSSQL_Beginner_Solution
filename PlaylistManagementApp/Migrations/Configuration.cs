@@ -1,4 +1,4 @@
-﻿namespace ExpenseTrackerApp.Migrations
+﻿namespace PlaylistManagementApp.Migrations
 {
     using System;
     using System.Data.Entity;
